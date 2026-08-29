@@ -1,0 +1,31 @@
+# ---- Secrets (never commit) ----
+backend/.env
+backend/.env.local
+.env
+.env.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+backend/.venv/
+backend/.venv-*/
+backend/.tools/
+backend/backups/
+*.db
+*.sqlite3
+
+# ---- Node ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ---- Runtime / logs ----
+.runtime-logs/
+*.log
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

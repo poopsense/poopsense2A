@@ -1,0 +1,9 @@
+{
+  "name": "PoopSense 家庭健康",
+  "short_name": "PoopSense",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3ea",
+  "theme_color": "#f7f3ea",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
